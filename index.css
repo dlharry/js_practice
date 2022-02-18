@@ -4,16 +4,32 @@ html{
 body{
     height:100%;
 }
+h1{
+    width:500px;
+    text-align: center;
+}
 .box{
     height:100%;
 }
 #outer-box{
-    height:200px;
+    height:300px;
     width:500px;
 }
 #display-box{
+    /*Remember to put the position of the parent to relative*/
+    position: relative;
+
     height:20%;
     background-color:ghostwhite;
+}
+#output-value{
+    position: absolute;
+
+    margin: 0;
+    width:100%;
+    bottom:5px;
+    right:5px;
+    text-align: right;
 }
 #button-box{
     height:80%;
@@ -27,4 +43,20 @@ body{
     height:100%;
     width:25%;
     float:left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-card{
+    background-color: honeydew;
+    height:70%;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-card:hover{
+    height:80%;
+    width:85%;
 }
