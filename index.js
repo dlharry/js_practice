@@ -12,5 +12,10 @@ function input_clear()
 }
 function calculate()
 {
+    //First, breakdown the string into calculatable methods.
+
+    //Second, calculate the string somehow.
+
+    //Third, put the result back into the textbox.
     document.getElementById('output-value').innerText = 'calculated value should be here';
 }
