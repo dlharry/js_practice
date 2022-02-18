@@ -1,6 +1,16 @@
-fuction whythefuck(num)
+function input_num(num)
 {
-    document.getElementById('output-value').innerHTML+=num;
-    var value_now = document.getElementById('output-value');
-    value_now.value += num;
+    var value_now = document.getElementById('output-value').innerText;
+    if(value_now == '0'){
+        document.getElementById('output-value').innerText = '';
+    }
+    document.getElementById('output-value').innerText += num;
+}
+function input_clear()
+{
+    document.getElementById('output-value').innerText = '0';
+}
+function calculate()
+{
+    document.getElementById('output-value').innerText = 'calculated value should be here';
 }
