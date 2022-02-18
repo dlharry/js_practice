@@ -1,0 +1,22 @@
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+.top-box{
+    height:10%;
+}
+.form-box{
+    height: 80%;
+}
+form.form-example{
+    display: table;
+}
+div.form-example{
+    display:table-row;
+}
+label, input{
+    display: table-cell;
+    margin-bottom: 10px;
+}
